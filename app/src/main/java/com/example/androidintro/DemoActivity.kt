@@ -17,8 +17,6 @@ class DemoActivity : AppCompatActivity() {
         val txt = findViewById<TextView>(R.id.textView2) // you can access any object from memory via its id
 
         val btCh = findViewById<Button>(R.id.button3)
-//        btCh.setOnClickListener(fun(v) { })
-//        btCh.setOnClickListener({})
 
         btCh.setOnClickListener {
             txt.text = "Hello To Android"
