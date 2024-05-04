@@ -15,25 +15,22 @@
         <activity
             android:name=".ColorPickerActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 <!--        <activity-->
 <!--            android:name=".LayoutDemoActivity"-->
 <!--            android:exported="false" />-->
         <activity
             android:name=".ImageActivity"
-            android:exported="true" /> <!-- <activity -->
-        <!-- android:name=".Calculator" -->
-        <!-- android:exported="true"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> &lt;!&ndash; <activity &ndash;&gt; -->
+            android:exported="true" />
+         <activity
+         android:name=".Calculator"
+         android:exported="true">
+         <intent-filter>
+         <action android:name="android.intent.action.MAIN" />
+         <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+         </activity> <!-- <activity -->
         <!-- android:name=".calculater" -->
         <!-- android:exported="false" /> -->
         <!-- <activity -->

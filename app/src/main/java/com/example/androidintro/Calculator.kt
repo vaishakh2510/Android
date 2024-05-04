@@ -31,17 +31,26 @@ class Calculator : AppCompatActivity() {
 
         val btSub = findViewById<Button>(R.id.button6)
         btSub.setOnClickListener {
-            // @Todo:// home work
+            val num1 = etNum1.text.toString().toInt()
+            val num2 = etNum2.text.toString().toInt()
+
+            res.text = ""+ (num1 - num2)
         }
 
-        val btMul = findViewById<Button>(R.id.button8)
+        val btMul = findViewById<Button>(R.id.button7)
         btMul.setOnClickListener {
-            // @Todo:// home work
+            val num1 = etNum1.text.toString().toInt()
+            val num2 = etNum2.text.toString().toInt()
+
+            res.text = ""+ (num1 * num2)
         }
 
-        val btDv = findViewById<Button>(R.id.button7)
+        val btDv = findViewById<Button>(R.id.button8)
         btDv.setOnClickListener {
-            // @Todo:// home work
+            val num1 = etNum1.text.toString().toInt()
+            val num2 = etNum2.text.toString().toInt()
+
+            res.text = ""+ (num1 / num2)
         }
     }
 }
